@@ -1,0 +1,14 @@
+.slide-section {
+  padding-top: 20px;
+
+  width: 50%;
+  display: inline-block
+}
+
+.section {
+  margin: 0 10%;
+}
+
+.section1 {
+  grid-area: main;
+}

@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Tenor+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Antonio', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Tenor Sans', sans-serif;
+  overflow-x: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  grid-template-rows: 20vh 20vh 60vh;
+  grid-template-areas:
+    "header header"
+    "title title"
+    "main aside";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+Nav {
+  grid-area: header
+}
+
+.title {
+  grid-area: title
+}
+
+.section1 {
+  grid-area: main;
+}
+
+.section2 {
+  grid-area: aside;
+}
+
+.organization {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background: url(./components/assets/page1ofi.jpeg);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
