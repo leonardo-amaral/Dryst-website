@@ -10,8 +10,8 @@ function SectionInput() {
       transition={{ delay: 1 }}>
       <h1 className='newsletter'>NEWSLETTER</h1>
       <div className="text">
-        <h3>FIQUE POR DENTRO DE TODAS AS
-          NOVIDADE DO MUNDO DA MODA,
+        <h3>FIQUE POR DENTRO DE TODAS AS NOVIDADE
+          DO MUNDO DA MODA,
           ASSIM, NUNCA SAINDO DA MODA.
         </h3>
       </div>

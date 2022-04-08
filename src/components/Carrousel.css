@@ -1,0 +1,53 @@
+.slide-section {
+  padding-top: 20px;
+
+  width: 50%;
+  display: inline-block
+}
+
+.section {
+  margin: 0 10%;
+}
+
+.section1 {
+  grid-area: main;
+}
+
+.carousel {
+  padding-top: 8%;
+  width: 50%;
+  overflow: hidden;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.carousel-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+  color: #fff;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 1vw;
+}
+
+.indicators>button {
+  margin: 5px;
+}
+
+.buttons-slide {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: #5a5a5a55;
+  font-size: 20px;
+  text-align: center;
+}
