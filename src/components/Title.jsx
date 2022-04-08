@@ -10,7 +10,7 @@ function Title() {
           <div className='line1'>
 
           </div>
-          <motion.h1 className="title" whileHover={{ scale: 0.5 }} transition={{ duration: 0.5 }}>
+          <motion.h1 className="title" whileHover={{ scale: 0.8 }} transition={{ duration: 1 }}>
             Dryst
           </motion.h1>
           <div className='line'>

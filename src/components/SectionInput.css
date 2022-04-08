@@ -13,19 +13,22 @@
 
 .text {
   font-size: 30px;
+  font-weight: 200;
+  color: #833d29;
   width: 50%;
   font-family: 'Tenor Sans', sans-serif;
 }
 
 .newsletter {
   font-size: 80px;
+  letter-spacing: 4px;
   color: #a65c16;
 }
 
 .inputs {
   display: flex;
   flex-direction: column;
-  gap: 5vh;
+  gap: 4vh;
   width: 65%;
   align-items: center;
 }
@@ -37,7 +40,6 @@
   border: none;
   background-color: #b37132;
   font-size: 24px;
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.7);
 }
 
 .button-newsletter {
@@ -51,5 +53,10 @@
 }
 
 .input-email-senha::placeholder {
+  color: #833d29;
+}
+
+.paragrafo {
+  letter-spacing: 2px;
   color: #833d29;
 }

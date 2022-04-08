@@ -18,6 +18,7 @@ function SectionInput() {
       <div className="inputs">
         <input className='input-email-senha' type="text" placeholder='SEU EMAIL:' />
         <input className='input-email-senha' type="text" placeholder='SEU NOME:' />
+        <p className='paragrafo'>Você Poderá cancelar sua inscrição à qualquer momento.</p>
         <motion.button whileHover={{ scale: 1.2, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.7)" }} className='button-newsletter'>ENVIAR</motion.button>
       </div>
     </motion.div>
