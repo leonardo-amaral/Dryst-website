@@ -26,7 +26,10 @@ const Carousel = ({ children }) => {
   };
 
   return (
-    <div className="carousel">
+    <motion.div className="carousel"
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
+      transition={{ damping: 10, duration: 1 }}>
       <div className="inner" style={{ transform: `translateX(-${activeIndex * 100}%)` }}>
         {React.Children.map(children, (child, index) => {
           return React.cloneElement(child, { width: "100%" });
@@ -46,7 +49,7 @@ const Carousel = ({ children }) => {
           <CgChevronDoubleRight />
         </motion.button>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
